@@ -1,0 +1,27 @@
+@import 'variables';
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: $secondaryDark;
+    min-height: 100vh;
+}
+
+.card-sizing {
+    width: 19%;
+}
+
+@media only screen and (max-width: 950px) {
+    .card-sizing{
+        width: 12rem;
+    }
+}
+
+@media only screen and (max-width: 466px) {
+    .card-sizing{
+        width: 70%;
+    }
+}

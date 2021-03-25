@@ -1,0 +1,16 @@
+@import './variables';
+.navbar{
+    background-color: $dark;
+}
+.welcome-heading{
+    margin-top: -15vh;
+    z-index: 10;
+    & > h1{
+        font-size: 45px;
+    }
+}
+.carousel-movie{
+    height: 40vh;
+    object-fit: cover;
+    mask-image: linear-gradient(rgba($dark,.7),rgba(0,0,0,0) 100%);
+}
